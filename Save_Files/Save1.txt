@@ -1,0 +1,8 @@
+Ryo 250
+100 100 0 20 1
+10 10 10
+
+Formatted as follows:
+Name Gold
+Health MaxHealth Experience ExpTillNextLevel Level
+Attack Defense Speed

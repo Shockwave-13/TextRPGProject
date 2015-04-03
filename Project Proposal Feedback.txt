@@ -1,0 +1,6 @@
+Looks like a good project 2. For this project, the game does not have to be very big.
+You don't show the "Go on a quest" option but if that's a short story adventure, then 
+it just needs to be a few turns long. You also propose a graphical user interface (GUI) 
+extra credit. If neither of you have programmed GUIs before, I'd suggest either starting 
+early or not working on it at all. GUIs can be difficult and we will only talk about them 
+in class after all of the required topics have been covered (GUIs are optional).
