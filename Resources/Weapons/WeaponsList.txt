@@ -1,8 +1,7 @@
 Wooden dagger
-A dagger used in training to minimize injury.
 2 0 1 5 5
-
+A dagger used in training to minimize injury
 
 Wooden sword
-A sword used to stun rather than kill.
 4 1 -1 10 10
+A sword used to stun rather than kill

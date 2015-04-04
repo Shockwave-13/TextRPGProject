@@ -14,6 +14,8 @@ public class GameDriver {
 		weapons.readWeaponsList();
 		System.out.println(weapons.toStringArray());
 		
+		System.out.println();
+		
 		Player player = new Player();
 		player.readSavefile();
 		System.out.println(player);
@@ -42,8 +44,6 @@ public class GameDriver {
 		    Thread.sleep(25); // in milliseconds
 		}
 		System.out.println();
-	}
-	
-	
+	}	
 
 }

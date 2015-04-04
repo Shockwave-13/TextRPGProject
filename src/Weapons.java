@@ -21,14 +21,20 @@ public class Weapons {
 			
 			weaponName[i] = weaponsfile.nextLine();
 			System.out.println(weaponName[i]);
-			weaponDescription[i] = weaponsfile.nextLine();
-			System.out.print(weaponDescription[i]);
 			
 			weaponStats[i][0] = weaponsfile.nextInt();
 			weaponStats[i][1] = weaponsfile.nextInt();
 			weaponStats[i][2] = weaponsfile.nextInt();
 			weaponStats[i][3] = weaponsfile.nextInt();
 			weaponStats[i][4] = weaponsfile.nextInt();
+			System.out.printf("%d %d %d %d %d%n", weaponStats[i][3], weaponStats[i][4], weaponStats[i][0], weaponStats[i][1], weaponStats[i][2]);
+			
+			weaponsfile.nextLine();
+			
+			weaponDescription[i] = weaponsfile.nextLine();
+			System.out.println(weaponDescription[i]);
+			
+			if(weaponsfile.hasNextLine()) weaponsfile.nextLine();
 		}
 		
 		weaponsfile.close();
