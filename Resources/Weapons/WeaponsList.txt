@@ -1,7 +1,15 @@
 Wooden dagger
-2 0 1 5 5
-A dagger used in training to minimize injury
+2 0 2 5 5
+A dagger used in training to minimize injury.
 
 Wooden sword
 4 1 -1 10 10
-A sword used to stun rather than kill
+A sword used to stun rather than kill.
+
+Wooden Bow
+4 0 1 10 10
+Don't point at anything you don't want to hospitalize!
+
+Wooden Shield
+0 4 -1 8 8
+Warning: Do not use in real combat.

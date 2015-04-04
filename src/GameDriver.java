@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class GameDriver {
@@ -12,7 +13,8 @@ public class GameDriver {
 		
 		Weapons weapons = new Weapons();
 		weapons.readWeaponsList();
-		System.out.println(weapons.toStringArray());
+		System.out.println(Arrays.toString(weapons.toStringArray()));
+		//System.out.println(Arrays.toString(weapons.getWeaponName()));
 		
 		System.out.println();
 		
